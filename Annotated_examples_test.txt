@@ -1,0 +1,81 @@
+    Annotated Examples from Test Set:
+
+--- Example 1 (Original Index: 220) ---
+True Role: fullstack
+Predicted Role: frontend
+Commit Message: "Refactored CSS and layout for improved responsive UI, updated button styles, and enhanced modal and dropdown animations."
+Relevant Features: Num Files Changed=3, Lines Added=178, Lines Deleted=135, Commit Type=refactor, File Extensions=[np.str_('css')], Time of Commit=Thursday 17:00
+Annotation: Misclassified. True role was fullstack, but predicted as frontend. This misclassification is common. It might be due to the commit having characteristics that strongly resemble frontend work (e.g., focus on UI changes in commit message, frontend file extensions) despite being a fullstack commit. The numerical metrics might also fall within the typical range for frontend commits.
+
+--- Example 2 (Original Index: 621) ---
+True Role: fullstack
+Predicted Role: frontend
+Commit Message: "Fixed UI layout and CSS style inconsistencies to improve responsive theme on page load, also refactored dropdown button component to enhance navigation animation and widget responsiveness"
+Relevant Features: Num Files Changed=7, Lines Added=875, Lines Deleted=519, Commit Type=bugfix, File Extensions=[np.str_('py'), np.str_('js_ts'), np.str_('html'), np.str_('java_go'), np.str_('java_go')], Time of Commit=Saturday 00:00
+Annotation: Misclassified. True role was fullstack, but predicted as frontend. This misclassification is common. It might be due to the commit having characteristics that strongly resemble frontend work (e.g., focus on UI changes in commit message, frontend file extensions) despite being a fullstack commit. The numerical metrics might also fall within the typical range for frontend commits.
+
+--- Example 3 (Original Index: 184) ---
+True Role: fullstack
+Predicted Role: frontend
+Commit Message: "Refactor UI layout to include responsive theme and animation for modal dropdown with validation on server endpoint"
+Relevant Features: Num Files Changed=1, Lines Added=56, Lines Deleted=30, Commit Type=feature, File Extensions=[np.str_('py')], Time of Commit=Thursday 15:00
+Annotation: Misclassified. True role was fullstack, but predicted as frontend. This misclassification is common. It might be due to the commit having characteristics that strongly resemble frontend work (e.g., focus on UI changes in commit message, frontend file extensions) despite being a fullstack commit. The numerical metrics might also fall within the typical range for frontend commits.
+
+--- Example 4 (Original Index: 601) ---
+True Role: fullstack
+Predicted Role: frontend
+Commit Message: "Refactor UI component: Implement responsive theme, CSS styles and layout for modal, dropdown and form widgets; enhance page navigation and animation."
+Relevant Features: Num Files Changed=8, Lines Added=141, Lines Deleted=70, Commit Type=feature, File Extensions=[np.str_('java_go'), np.str_('css'), np.str_('html')], Time of Commit=Saturday 16:00
+Annotation: Misclassified. True role was fullstack, but predicted as frontend. This misclassification is common. It might be due to the commit having characteristics that strongly resemble frontend work (e.g., focus on UI changes in commit message, frontend file extensions) despite being a fullstack commit. The numerical metrics might also fall within the typical range for frontend commits.
+
+--- Example 5 (Original Index: 344) ---
+True Role: fullstack
+Predicted Role: frontend
+Commit Message: "Refactor UI layout and CSS styles for responsive design, enhance button and dropdown components, and implement animation for modal and widget interactions"
+Relevant Features: Num Files Changed=6, Lines Added=706, Lines Deleted=380, Commit Type=feature, File Extensions=[np.str_('java_go')], Time of Commit=Friday 11:00
+Annotation: Misclassified. True role was fullstack, but predicted as frontend. This misclassification is common. It might be due to the commit having characteristics that strongly resemble frontend work (e.g., focus on UI changes in commit message, frontend file extensions) despite being a fullstack commit. The numerical metrics might also fall within the typical range for frontend commits.
+
+--- Example 6 (Original Index: 1395) ---
+True Role: frontend
+Predicted Role: fullstack
+Commit Message: "Refactored page layout to improve responsive design, updated UI components for modal and dropdown functionality, and enhanced CSS styles for button and form elements to match the new theme, also added navigation animation to improve user experience, also fixed a minor bug introduced by backend developer while implementing new API, also added a new widget to the page to showcase user data"
+Relevant Features: Num Files Changed=2, Lines Added=187, Lines Deleted=76, Commit Type=feature, File Extensions=[np.str_('html')], Time of Commit=Thursday 18:00
+Annotation: Misclassified. True role was frontend, but predicted as fullstack. This misclassification is less common. It might be due to the commit involving changes that are more extensive or touch on areas (e.g., backend interactions) that the model associates more with fullstack roles, even if the primary focus was frontend.
+
+--- Example 7 (Original Index: 1050) ---
+True Role: frontend
+Predicted Role: fullstack
+Commit Message: Implemented responsive UI layout changes for the navigation widget, 
+added CSS styles for the dropdown button and modal component,
+refactored the page's theme and style settings, 
+merged frontend and backend API calls for the form submission,
+and fixed animation issues with the page's responsive design.
+Relevant Features: Num Files Changed=5, Lines Added=394, Lines Deleted=145, Commit Type=feature, File Extensions=[np.str_('js_ts')], Time of Commit=Tuesday 17:00
+Annotation: Misclassified. True role was frontend, but predicted as fullstack. This misclassification is less common. It might be due to the commit involving changes that are more extensive or touch on areas (e.g., backend interactions) that the model associates more with fullstack roles, even if the primary focus was frontend.
+
+--- Example 8 (Original Index: 413) ---
+True Role: fullstack
+Predicted Role: fullstack
+Commit Message: "Refactored UI components: implemented responsive theme-driven button and dropdown widgets with CSS and layout improvements, added modal and form components, and integrated with navigation and authentication logic via API and database interactions."
+Relevant Features: Num Files Changed=6, Lines Added=557, Lines Deleted=290, Commit Type=feature, File Extensions=[np.str_('js_ts'), np.str_('css'), np.str_('css')], Time of Commit=Friday 22:00
+Annotation: Correctly classified as fullstack. Correctly classified as fullstack. This commit likely exhibited a combination of features (e.g., larger changes, mix of file types, commit message content) that strongly indicated a fullstack role.
+
+--- Example 9 (Original Index: 861) ---
+True Role: fullstack
+Predicted Role: fullstack
+Commit Message: Improved responsive UI for login page with CSS animation and validation 
+Added button and modal component to handle authentication and database query 
+Enhanced navigation menu with theme-based style and widget layout 
+Implemented API endpoint for session management and token validation 
+Refactored form logic to separate frontend and backend concerns 
+Updated schema and service layer to accommodate new authentication requirements 
+Fixed CSS layout issue for responsive design on smaller screens
+Relevant Features: Num Files Changed=7, Lines Added=1007, Lines Deleted=558, Commit Type=feature, File Extensions=[np.str_('html'), np.str_('js_ts')], Time of Commit=Saturday 17:00
+Annotation: Correctly classified as fullstack. Correctly classified as fullstack. This commit likely exhibited a combination of features (e.g., larger changes, mix of file types, commit message content) that strongly indicated a fullstack role.
+
+--- Example 10 (Original Index: 259) ---
+True Role: fullstack
+Predicted Role: fullstack
+Commit Message: "feat: Implement responsive UI component with modal and dropdown functionality for improved user experience, including CSS styles, theme adaptation, and API integration for seamless backend communication."
+Relevant Features: Num Files Changed=1, Lines Added=91, Lines Deleted=54, Commit Type=feature, File Extensions=[np.str_('js_ts')], Time of Commit=Thursday 02:00
+Annotation: Correctly classified as fullstack. Correctly classified as fullstack. This commit likely exhibited a combination of features (e.g., larger changes, mix of file types, commit message content) that strongly indicated a fullstack role.
